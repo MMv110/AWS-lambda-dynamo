@@ -1,0 +1,11 @@
+service: lambda
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  profile: serverlessUser
+
+functions:
+  function1:
+    handler: index.handler
