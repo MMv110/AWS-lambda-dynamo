@@ -34,3 +34,4 @@ export const getProduct = async (stage, idProducto) => {
     console.log("queryProduct: ", response)
     return response
 }
+
